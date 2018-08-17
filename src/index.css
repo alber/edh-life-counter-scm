@@ -1,0 +1,63 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 7px;
+}
+
+.dashboard {
+  border:1px solid #777;
+  width:98%;
+  margin:0px auto;
+}
+
+.dashboard h3 {
+  margin: 7px 0 0 0;
+}
+
+.life-window {
+  font-size:10em;
+}
+
+.updownbuttons {
+  border:1px dotted #ccc;
+  font-size:4em;
+  width:33%;
+  max-width:33% !important;
+  touch-action: manipulation;
+}
+
+.life-window-unfocused {
+  font-size:3em;
+}
+
+.updownbuttons-unfocused {
+  border:1px dotted #ddd;
+  font-size:1.5em;
+  width:33%;
+  max-width:33% !important;
+  touch-action: manipulation;
+}
+
+.mystats {
+  display:inline-block;
+  width:50%;
+}
+
+.pilllist {
+  list-style-type: none;
+  display:inline-block;
+  width:50%;
+  margin:0;
+  padding:0;
+}
+
+.pillbutton {
+  font-size:1em !important;
+  border:1px solid #eee;
+  border-radius: 6% / 30%;
+  margin: 0.3em 0;
+  
+}
+
+.pillcount {
+  float:right;
+}
